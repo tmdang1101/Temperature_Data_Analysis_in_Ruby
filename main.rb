@@ -344,8 +344,8 @@ def snow_and_snowdepth_by_month(filename)
   end
 end
 
-#filename = 'chicago.csv'
-filename = 'galesburg.csv'
+filename = 'chicago.csv'
+#filename = 'galesburg.csv'
 #filename = 'hanoi.csv'
 
 #do_thing(filename)
@@ -357,7 +357,7 @@ filename = 'galesburg.csv'
 
 
 #Q1
-#avg_max_decade(filename)
+avg_max_decade(filename)
 #avg_min_decade(filename)
 
 #Q2
@@ -370,7 +370,7 @@ filename = 'galesburg.csv'
 #daily_min_max_gap_by_year(filename)
 
 #Q5
-snow_missing_records_by_month(filename)
+#snow_missing_records_by_month(filename)
 
 #Q6
 #snow_and_snowdepth_by_month(filename)
